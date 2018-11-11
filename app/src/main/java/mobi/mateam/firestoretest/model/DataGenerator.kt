@@ -12,6 +12,6 @@ object DataGenerator {
     }
 
     fun generateModel(id: String, timestamp: Long, tags: List<String>): MutableMap<String, Any> {
-        return mutableMapOf( "id" to id, "timestamp" to timestamp, "tags" to tags)
+        return mutableMapOf( "id" to id, "timestamp" to timestamp, "allTags" to tags)
     }
 }
